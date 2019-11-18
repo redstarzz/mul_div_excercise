@@ -1,0 +1,68 @@
+body {
+  font-family: "游ゴシック" sans-serif;
+}
+
+.result_mul {
+  width: 250px;
+  margin-left: 30px;
+  text-align: right;
+  display: inline-block;
+}
+
+.multiple {
+  width: 250px;
+  display: table;
+  border-bottom: 1px solid black;
+  margin-left: 30px;
+}
+
+.multiple_mum {
+  display: table-cell;
+  text-align: right;
+}
+
+.division {
+  width: 250px;
+  display: table;
+  border-bottom: 1px solid black;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+
+.division_mum {
+  display: table-cell;
+  width: 15px;
+  text-align: left;
+}
+
+.result_div {
+  width: 200px;
+  margin-left: 30px;
+  text-align: right;
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 250px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 8px 8px 30px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  text-align: right;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.last {
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: right;
+  display: inline-block;
+}
