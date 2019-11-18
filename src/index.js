@@ -1,7 +1,7 @@
 import "./styles.css";
 import $ from "jquery";
 
-$("#app").html('<h1><span id="Title">掛け算割り算強化演習問題</span></h1>');
+$("#app").html('<h1><span id="Title">Mul and Div Excercise</span></h1>');
 
 $("div.multiple")
   .wrapInner("<span class='multiple_mum' />")
